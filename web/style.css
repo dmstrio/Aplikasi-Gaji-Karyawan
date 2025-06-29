@@ -1,0 +1,336 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+    color: #003366;
+}
+
+/* Kontainer utama */
+table {
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+/* Header */
+h1, h2, h4 {
+    color: #1E90FF;
+    margin: 5px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 0.95em;
+}
+
+/* Menu kiri */
+#menu {
+    padding: 20px;
+}
+
+#menu b {
+    font-size: 1.1em;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1E90FF;
+}
+
+#menu a {
+    display: block;
+    background-color: #e0f4ff;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #1E90FF;
+    transition: all 0.3s ease;
+}
+
+#menu a:hover {
+    background-color: #1E90FF;
+    color: white;
+}
+
+/* Top navigation menu */
+nav {
+    background-color: #1E90FF;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: inset 0 -2px 4px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.3s ease;
+    border-radius: 6px;
+}
+
+nav ul li:hover > a {
+    background-color: #0066cc;
+}
+
+/* Dropdown menu */
+nav ul li ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #0066cc;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav ul li:hover ul {
+    display: flex;
+}
+
+nav ul li ul li a {
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+nav ul li ul li a:hover {
+    background-color: #87CEEB;
+    color: #003366;
+}
+
+/* Konten tengah */
+td[valign="top"] {
+    padding: 20px;
+}
+
+/* Footer */
+small {
+    font-size: 0.85em;
+    color: #003366;
+    padding: 10px;
+    display: block;
+}
+
+/* Login form container */
+.login-box {
+    background: #ffffff;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Tabel login */
+.login-box table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.login-box td {
+    padding: 10px;
+    font-size: 1em;
+    color: #003366;
+}
+
+/* Input styling */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #87CEEB;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+    border-color: #1E90FF;
+    outline: none;
+    box-shadow: 0 0 5px #87CEEB;
+}
+
+/* Button login */
+.login-box input[type="submit"] {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+/* Error message */
+.login-box .error {
+    color: red;
+    margin-top: 15px;
+}
+
+/* Form container */
+.form-box {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1E90FF;
+}
+
+.form-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-box td {
+    padding: 10px;
+    font-size: 1em;
+    color: #003366;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #87CEEB;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.form-box input:focus,
+.form-box select:focus {
+    border-color: #1E90FF;
+    outline: none;
+    box-shadow: 0 0 5px #87CEEB;
+}
+
+/* Tombol aksi */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-group input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-group input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+/* Tabel hasil pencarian */
+.data-table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.data-table th {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+}
+
+.data-table td {
+    background-color: #eaf6ff;
+}
+
+.data-table input[type="radio"] {
+    transform: scale(1.2);
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* Pesan error */
+.error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Tombol kecil (Cari) */
+.btn-small {
+    padding: 6px 12px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.btn-small:hover {
+    background-color: #0066cc;
+}
