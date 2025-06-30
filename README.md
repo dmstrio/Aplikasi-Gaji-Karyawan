@@ -16,7 +16,7 @@
 * **🧾 Riwayat Slip Gaji**
   Menyimpan data penggajian sebelumnya sebagai referensi dan pelaporan.
 
-* **🔐 Login & Hak Akses** *(opsional)*
+* **🔐 Login & Hak Akses**
   Fitur login dasar untuk membatasi akses pengguna.
 
 * **🖥️ Tampilan GUI Desktop**
