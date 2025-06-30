@@ -1,33 +1,35 @@
-# 📱 Project Besar Mobile Programming
+# 💼 Project Aplikasi Gaji Karyawan
 
-> Aplikasi ini merupakan project besar untuk mata kuliah **Mobile Programming** Semester 6 di Universitas Pamulang.
-> Dikembangkan menggunakan **Flutter**, aplikasi ini mencakup berbagai fitur interaktif seperti manajemen profil, grafik statistik, pemetaan lokasi, dan biodata pengguna.
+> Ini adalah project desktop berbasis Java untuk mengelola sistem penggajian karyawan.
+> Aplikasi ini dikembangkan menggunakan **NetBeans** dan **MySQL**, dengan antarmuka GUI interaktif berbasis **Java Swing**.
 
 ---
 
 ## 🚀 Fitur Utama
 
-* **📷 Ganti Foto Profil**
-  Pengguna dapat memilih foto dari kamera atau galeri menggunakan package `image_picker`.
+* **👤 Manajemen Data Karyawan**
+  Tambah, edit, dan hapus data karyawan melalui antarmuka GUI.
 
-* **📈 Statistik Kunjungan**
-  Menampilkan data dummy berupa kunjungan bulanan dalam bentuk grafik menggunakan `fl_chart`.
+* **💰 Perhitungan Gaji Otomatis**
+  Hitung total gaji berdasarkan gaji pokok, tunjangan, potongan, dan lembur.
 
-* **📍 Peta Lokasi Tempat Tinggal**
-  Menampilkan lokasi rumah pengguna (Pamulang) di peta menggunakan `flutter_map` dan `OpenStreetMap`.
+* **🧾 Riwayat Slip Gaji**
+  Menyimpan data penggajian sebelumnya sebagai referensi dan pelaporan.
 
-* **👤 Biodata & Keahlian**
-  Menampilkan biodata mahasiswa, skill, kegiatan organisasi, dan proyek-proyek yang pernah dibuat.
+* **🔐 Login & Hak Akses** *(opsional)*
+  Fitur login dasar untuk membatasi akses pengguna.
+
+* **🖥️ Tampilan GUI Desktop**
+  Menggunakan Java Swing (JFrame, JTable, dsb.) dengan desain user-friendly.
 
 ---
 
 ## 🧱 Teknologi yang Digunakan
 
-| Teknologi                                              
- ------------------------------------------------------ 
-- [Flutter](https://flutter.dev)                         
-- [Dart](https://dart.dev)                               
-- [fl\_chart](https://pub.dev/packages/fl_chart)         
-- [flutter\_map](https://pub.dev/packages/flutter_map)   
-- [image\_picker](https://pub.dev/packages/image_picker) 
-- [latlong2](https://pub.dev/packages/latlong2)        
+| Teknologi                                                                 
+ ------------------------------------------------------------------------- 
+- [Java](https://www.oracle.com/java/)                                     
+- [NetBeans](https://netbeans.apache.org/)                                  
+- [Swing](https://docs.oracle.com/javase/tutorial/uiswing/)                 
+- [MySQL](https://www.mysql.com/) / [XAMPP](https://www.apachefriends.org/) 
+- [JDBC](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)      
